@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51BB866F2C75EB1B008E5A5E /* EndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB866E2C75EB1B008E5A5E /* EndpointTests.swift */; };
+		51BB86712C75EE27008E5A5E /* APODEndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB86702C75EE27008E5A5E /* APODEndpointTests.swift */; };
+		51BB86732C75F631008E5A5E /* APODServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB86722C75F631008E5A5E /* APODServiceTests.swift */; };
+		51BB86752C75F719008E5A5E /* CacheAsyncImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB86742C75F719008E5A5E /* CacheAsyncImageTests.swift */; };
+		51BB867F2C761175008E5A5E /* FutureFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB867E2C761175008E5A5E /* FutureFeatureView.swift */; };
 		51D2B7ED2C70F03000B1C3A6 /* JPMorganChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2B7EC2C70F03000B1C3A6 /* JPMorganChallengeApp.swift */; };
-		51D2B7EF2C70F03000B1C3A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2B7EE2C70F03000B1C3A6 /* ContentView.swift */; };
 		51D2B7F12C70F03100B1C3A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51D2B7F02C70F03100B1C3A6 /* Assets.xcassets */; };
 		51D2B7F42C70F03100B1C3A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51D2B7F32C70F03100B1C3A6 /* Preview Assets.xcassets */; };
-		51D2B7FE2C70F03100B1C3A6 /* JPMorganChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2B7FD2C70F03100B1C3A6 /* JPMorganChallengeTests.swift */; };
 		51D2B8082C70F03100B1C3A6 /* JPMorganChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2B8072C70F03100B1C3A6 /* JPMorganChallengeUITests.swift */; };
 		51D2B80A2C70F03100B1C3A6 /* JPMorganChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2B8092C70F03100B1C3A6 /* JPMorganChallengeUITestsLaunchTests.swift */; };
+		51D2B8182C70F14B00B1C3A6 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2B8172C70F14B00B1C3A6 /* EndPoint.swift */; };
+		51D2B81A2C70F22100B1C3A6 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2B8192C70F22100B1C3A6 /* NetworkService.swift */; };
+		51D2B8282C723EE400B1C3A6 /* APODEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2B8272C723EE400B1C3A6 /* APODEndpoint.swift */; };
+		51D2B82A2C723FF000B1C3A6 /* APODService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2B8292C723FF000B1C3A6 /* APODService.swift */; };
+		51D2B82C2C72409E00B1C3A6 /* APODViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2B82B2C72409E00B1C3A6 /* APODViewModel.swift */; };
+		51D2B8302C724A3200B1C3A6 /* APODModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2B82F2C724A3200B1C3A6 /* APODModel.swift */; };
+		51D2B8322C724B8900B1C3A6 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2B8312C724B8900B1C3A6 /* Environment.swift */; };
+		51D2B83A2C72711A00B1C3A6 /* APODView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2B8392C72711A00B1C3A6 /* APODView.swift */; };
+		51D2B83C2C72717700B1C3A6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2B83B2C72717700B1C3A6 /* HomeView.swift */; };
+		51D2B83E2C72D4D700B1C3A6 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2B83D2C72D4D700B1C3A6 /* WebView.swift */; };
+		51D2B8402C74685100B1C3A6 /* CacheAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2B83F2C74685100B1C3A6 /* CacheAsyncImage.swift */; };
+		51D2B8422C74956500B1C3A6 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2B8412C74956500B1C3A6 /* DatePickerView.swift */; };
+		51D2B8442C74963F00B1C3A6 /* APODTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2B8432C74963F00B1C3A6 /* APODTabView.swift */; };
+		51D2B84A2C749A6300B1C3A6 /* APODViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2B8492C749A6300B1C3A6 /* APODViewModelTests.swift */; };
+		51D2B84C2C74A4D900B1C3A6 /* NetWorkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2B84B2C74A4D900B1C3A6 /* NetWorkServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +52,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51BB866E2C75EB1B008E5A5E /* EndpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointTests.swift; sourceTree = "<group>"; };
+		51BB86702C75EE27008E5A5E /* APODEndpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODEndpointTests.swift; sourceTree = "<group>"; };
+		51BB86722C75F631008E5A5E /* APODServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODServiceTests.swift; sourceTree = "<group>"; };
+		51BB86742C75F719008E5A5E /* CacheAsyncImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheAsyncImageTests.swift; sourceTree = "<group>"; };
+		51BB867E2C761175008E5A5E /* FutureFeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureFeatureView.swift; sourceTree = "<group>"; };
 		51D2B7E92C70F03000B1C3A6 /* JPMorganChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPMorganChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D2B7EC2C70F03000B1C3A6 /* JPMorganChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPMorganChallengeApp.swift; sourceTree = "<group>"; };
-		51D2B7EE2C70F03000B1C3A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		51D2B7F02C70F03100B1C3A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51D2B7F32C70F03100B1C3A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		51D2B7F92C70F03100B1C3A6 /* JPMorganChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPMorganChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		51D2B7FD2C70F03100B1C3A6 /* JPMorganChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPMorganChallengeTests.swift; sourceTree = "<group>"; };
 		51D2B8032C70F03100B1C3A6 /* JPMorganChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPMorganChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D2B8072C70F03100B1C3A6 /* JPMorganChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPMorganChallengeUITests.swift; sourceTree = "<group>"; };
 		51D2B8092C70F03100B1C3A6 /* JPMorganChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPMorganChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51D2B8172C70F14B00B1C3A6 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		51D2B8192C70F22100B1C3A6 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		51D2B8272C723EE400B1C3A6 /* APODEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODEndpoint.swift; sourceTree = "<group>"; };
+		51D2B8292C723FF000B1C3A6 /* APODService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODService.swift; sourceTree = "<group>"; };
+		51D2B82B2C72409E00B1C3A6 /* APODViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODViewModel.swift; sourceTree = "<group>"; };
+		51D2B82F2C724A3200B1C3A6 /* APODModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODModel.swift; sourceTree = "<group>"; };
+		51D2B8312C724B8900B1C3A6 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		51D2B8392C72711A00B1C3A6 /* APODView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODView.swift; sourceTree = "<group>"; };
+		51D2B83B2C72717700B1C3A6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		51D2B83D2C72D4D700B1C3A6 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		51D2B83F2C74685100B1C3A6 /* CacheAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheAsyncImage.swift; sourceTree = "<group>"; };
+		51D2B8412C74956500B1C3A6 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		51D2B8432C74963F00B1C3A6 /* APODTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODTabView.swift; sourceTree = "<group>"; };
+		51D2B8492C749A6300B1C3A6 /* APODViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODViewModelTests.swift; sourceTree = "<group>"; };
+		51D2B84B2C74A4D900B1C3A6 /* NetWorkServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +107,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51BB86762C760571008E5A5E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				51D2B8492C749A6300B1C3A6 /* APODViewModelTests.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		51BB867A2C760642008E5A5E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				51BB866E2C75EB1B008E5A5E /* EndpointTests.swift */,
+				51D2B84B2C74A4D900B1C3A6 /* NetWorkServiceTests.swift */,
+				51BB86722C75F631008E5A5E /* APODServiceTests.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		51BB867B2C7608B9008E5A5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51BB86702C75EE27008E5A5E /* APODEndpointTests.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51BB867C2C76090A008E5A5E /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				51BB86742C75F719008E5A5E /* CacheAsyncImageTests.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
 		51D2B7E02C70F03000B1C3A6 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +164,15 @@
 		51D2B7EB2C70F03000B1C3A6 /* JPMorganChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				51D2B8482C7498D700B1C3A6 /* ViewModel */,
+				51D2B8472C74989C00B1C3A6 /* CustomViews */,
+				51D2B8462C74986E00B1C3A6 /* Model */,
+				51D2B8452C74981A00B1C3A6 /* Views */,
+				51D2B8162C70F12200B1C3A6 /* Network */,
 				51D2B7EC2C70F03000B1C3A6 /* JPMorganChallengeApp.swift */,
-				51D2B7EE2C70F03000B1C3A6 /* ContentView.swift */,
 				51D2B7F02C70F03100B1C3A6 /* Assets.xcassets */,
 				51D2B7F22C70F03100B1C3A6 /* Preview Content */,
+				51D2B8312C724B8900B1C3A6 /* Environment.swift */,
 			);
 			path = JPMorganChallenge;
 			sourceTree = "<group>";
@@ -113,7 +188,10 @@
 		51D2B7FC2C70F03100B1C3A6 /* JPMorganChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				51D2B7FD2C70F03100B1C3A6 /* JPMorganChallengeTests.swift */,
+				51BB867C2C76090A008E5A5E /* CustomViews */,
+				51BB867B2C7608B9008E5A5E /* Model */,
+				51BB867A2C760642008E5A5E /* Network */,
+				51BB86762C760571008E5A5E /* ViewModel */,
 			);
 			path = JPMorganChallengeTests;
 			sourceTree = "<group>";
@@ -125,6 +203,54 @@
 				51D2B8092C70F03100B1C3A6 /* JPMorganChallengeUITestsLaunchTests.swift */,
 			);
 			path = JPMorganChallengeUITests;
+			sourceTree = "<group>";
+		};
+		51D2B8162C70F12200B1C3A6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				51D2B8292C723FF000B1C3A6 /* APODService.swift */,
+				51D2B8172C70F14B00B1C3A6 /* EndPoint.swift */,
+				51D2B8192C70F22100B1C3A6 /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		51D2B8452C74981A00B1C3A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				51D2B8392C72711A00B1C3A6 /* APODView.swift */,
+				51D2B83B2C72717700B1C3A6 /* HomeView.swift */,
+				51D2B8412C74956500B1C3A6 /* DatePickerView.swift */,
+				51D2B8432C74963F00B1C3A6 /* APODTabView.swift */,
+				51BB867E2C761175008E5A5E /* FutureFeatureView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		51D2B8462C74986E00B1C3A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51D2B82F2C724A3200B1C3A6 /* APODModel.swift */,
+				51D2B8272C723EE400B1C3A6 /* APODEndpoint.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51D2B8472C74989C00B1C3A6 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				51D2B83F2C74685100B1C3A6 /* CacheAsyncImage.swift */,
+				51D2B83D2C72D4D700B1C3A6 /* WebView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		51D2B8482C7498D700B1C3A6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				51D2B82B2C72409E00B1C3A6 /* APODViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +383,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51D2B7EF2C70F03000B1C3A6 /* ContentView.swift in Sources */,
+				51D2B8282C723EE400B1C3A6 /* APODEndpoint.swift in Sources */,
+				51D2B8182C70F14B00B1C3A6 /* EndPoint.swift in Sources */,
+				51D2B8302C724A3200B1C3A6 /* APODModel.swift in Sources */,
+				51D2B82A2C723FF000B1C3A6 /* APODService.swift in Sources */,
+				51D2B83A2C72711A00B1C3A6 /* APODView.swift in Sources */,
+				51D2B81A2C70F22100B1C3A6 /* NetworkService.swift in Sources */,
+				51D2B83E2C72D4D700B1C3A6 /* WebView.swift in Sources */,
+				51BB867F2C761175008E5A5E /* FutureFeatureView.swift in Sources */,
+				51D2B8322C724B8900B1C3A6 /* Environment.swift in Sources */,
+				51D2B8442C74963F00B1C3A6 /* APODTabView.swift in Sources */,
+				51D2B82C2C72409E00B1C3A6 /* APODViewModel.swift in Sources */,
+				51D2B8422C74956500B1C3A6 /* DatePickerView.swift in Sources */,
+				51D2B83C2C72717700B1C3A6 /* HomeView.swift in Sources */,
 				51D2B7ED2C70F03000B1C3A6 /* JPMorganChallengeApp.swift in Sources */,
+				51D2B8402C74685100B1C3A6 /* CacheAsyncImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +405,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51D2B7FE2C70F03100B1C3A6 /* JPMorganChallengeTests.swift in Sources */,
+				51BB86712C75EE27008E5A5E /* APODEndpointTests.swift in Sources */,
+				51D2B84A2C749A6300B1C3A6 /* APODViewModelTests.swift in Sources */,
+				51BB866F2C75EB1B008E5A5E /* EndpointTests.swift in Sources */,
+				51BB86752C75F719008E5A5E /* CacheAsyncImageTests.swift in Sources */,
+				51D2B84C2C74A4D900B1C3A6 /* NetWorkServiceTests.swift in Sources */,
+				51BB86732C75F631008E5A5E /* APODServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +548,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
